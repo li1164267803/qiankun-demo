@@ -14,7 +14,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "set BROWSER=none && react-app-rewired start",
     "serve": "npm run start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
